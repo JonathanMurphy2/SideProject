@@ -1,9 +1,4 @@
-"""
-By: Jonathan Murphy
-Name: PyPaint.py
-Date: 7/20/2020
-Purpose: Create a chess game using python
-"""
+
 
 from graphics import *
 from random import * 
@@ -45,7 +40,7 @@ def randomLineGeneration():
     win.getMouse()
     win.close()
 
-randomLineGeneration()
+#randomLineGeneration()
 
 def structuredLineGeneration():
     win = GraphWin("Fractals",1000,800)

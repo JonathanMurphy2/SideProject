@@ -5,7 +5,7 @@
     <ProjectGuid>d2561be0-324e-4315-bc8b-a0ca9e2ae5df</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>reference.py</StartupFile>
+    <StartupFile>PyPaint.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -13,6 +13,7 @@
     <Name>PyPaint</Name>
     <RootNamespace>PyChess</RootNamespace>
     <InterpreterId>Global|PythonCore|3.8-32</InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +24,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PyPaint.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="reference.py" />
   </ItemGroup>
   <ItemGroup>
